@@ -2,8 +2,10 @@ import React, { useEffect } from "react";
 import axios from "axios";
 import { useState } from "react";
 import "../styles/Property.css";
+import { useNavigate } from "react-router-dom";
 
 function Properties() {
+  const navigate = useNavigate();
   const [properties, setProperties] = useState([]);
   useEffect(() => {
     const fetchPosts = async () => {
@@ -28,7 +30,10 @@ function Properties() {
       <div className="propertiesList"></div>
       {properties.map((item, i) => (
         <>
-          <div className="propertyItem">
+          <div
+            onClick={() => navigate("/property", { state: item })}
+            className="propertyItem"
+          >
             <div key={i}></div>
             <div>{item.title}</div>
             <div>address: {item.address}</div>
