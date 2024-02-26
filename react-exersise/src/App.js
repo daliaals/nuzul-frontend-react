@@ -6,6 +6,8 @@ import "./styles/Navbar.css";
 import Properties from "./pages/Properties";
 import Property from "./pages/Property";
 import AddPropertyForm from "./pages/AddPropertyForm";
+import EditProperty from "./pages/EditProperty";
+import DeletedProperty from "./pages/DeletedProperty";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
           <Route path="/properties" element={<Properties />} />
           <Route path="/property" element={<Property />} />
           <Route path="/addProperty" element={<AddPropertyForm />} />
+          <Route path="/editProperty" element={<EditProperty />} />
+          <Route path="/deletedProperty" element={<DeletedProperty />} />
         </Routes>
       </Router>
     </div>

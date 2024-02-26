@@ -38,6 +38,9 @@ function Properties() {
             <div>{item.title}</div>
             <div>address: {item.address}</div>
             <div>price: {item.price}</div>
+            <div>
+              <button type="button">edit</button>
+            </div>
             <button
               onClick={() =>
                 axios
@@ -45,6 +48,7 @@ function Properties() {
                     `https://65d9c550bcc50200fcdc131a.mockapi.io/api/properties/rent/${item.id}`
                   )
                   .then((response) => {
+                    navigate("/deletedProperty");
                     console.log(
                       "Property deleted successfully:",
                       response.data
