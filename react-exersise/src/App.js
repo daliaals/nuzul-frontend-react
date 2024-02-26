@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./styles/Navbar.css";
 import Properties from "./pages/Properties";
 import Property from "./pages/Property";
+import AddPropertyForm from "./pages/AddPropertyForm";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/properties" element={<Properties />} />
           <Route path="/property" element={<Property />} />
+          <Route path="/addProperty" element={<AddPropertyForm />} />
         </Routes>
       </Router>
     </div>
