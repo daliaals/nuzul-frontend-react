@@ -1,0 +1,47 @@
+[
+  {
+    "createdAt": "2024-02-25T11:58:51.155Z",
+    "title": "2 bedroom apartment",
+    "address": "10 george street",
+    "price": 3000,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "id": "1"
+  },
+  {
+    "createdAt": "2024-02-25T09:04:13.660Z",
+    "title": "2 bedroom apartment",
+    "address": "12 george street",
+    "price": 3500,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "id": "2"
+  },
+  {
+    "createdAt": "2024-02-25T04:17:51.574Z",
+    "title": "15 saud street",
+    "address": "Cerritos",
+    "price": 4000,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "id": "3"
+  },
+  {
+    "createdAt": "2024-02-25T03:31:23.758Z",
+    "title": "3 bedroom apartment",
+    "address": "17 saud street",
+    "price": 5000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "id": "4"
+  },
+  {
+    "createdAt": "2024-02-25T21:10:12.913Z",
+    "title": "3 bedroom apartment",
+    "address": "20 saud street",
+    "price": 6000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "id": "5"
+  }
+]
